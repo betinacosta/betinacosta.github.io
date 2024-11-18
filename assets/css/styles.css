@@ -60,30 +60,30 @@ a:focus {
 }
 
 a.btn-cta-primary, .btn-cta-primary {
-  background: #17a2b8;
-  border: 1px solid #17a2b8;
+  background: #B81761;
+  border: 1px solid #B81761;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 a.btn-cta-primary:hover, .btn-cta-primary:hover {
-  background: #17a2b8;
-  border: 1px solid #17a2b8;
+  background: #CC4C87;
+  border: 1px solid #CC4C87;
   color: #fff;
 }
 
 a.btn-cta-secondary, .btn-cta-secondary {
-  background: #17a2b8;
-  border: 1px solid #17a2b8;
+  background: #B81761;
+  border: 1px solid #B81761;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
-  background: #479FC8;
-  border: 1px solid #479FC8;
+  background: #CC4C87;
+  border: 1px solid #CC4C87;
   color: #fff;
 }
 
@@ -334,6 +334,11 @@ a.dotted-link:hover {
   color: #5f6b77;
 }
 
+.about {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* Work Section */
 .experience .item {
   margin-bottom: 30px;
@@ -341,6 +346,13 @@ a.dotted-link:hover {
 
 .experience .item .title {
   font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.experience .item .job-title {
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 5px;
   line-height: 1.5;
@@ -413,7 +425,7 @@ a.dotted-link:hover {
 }
 
 /* Skills Section */
-.skills .intro {
+/* .skills .intro {
   margin-bottom: 30px;
 }
 
@@ -452,6 +464,39 @@ a.dotted-link:hover {
   margin-right: 3px;
   position: relative;
   top: -1px;
+} */
+
+.skills {
+  font-size: 92%;
+}
+
+.skills > ul {
+  padding-inline-start: 0px;
+}
+
+.skills > ul:after {
+  content: ''; 
+  display: table; 
+  clear: both;
+}
+
+.skills > ul > li {
+  display: block;   
+  float: left;  
+  margin: 6px 6px 0 0; 
+}
+
+.skills > ul > li > span {
+  background-color: #17a2b8;  
+  border: 1px solid rgba(45, 45, 45, 0.1618);
+  border-radius: 3px;
+  color: #fdf5e6;
+  padding: 4px 8px;
+  display: inline-block;
+}
+
+.job-skills > ul > li > span {
+  background-color: #46CAB8;
 }
 
 /* Testimonials section */
